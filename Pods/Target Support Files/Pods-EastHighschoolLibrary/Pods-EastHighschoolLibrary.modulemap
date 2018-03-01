@@ -1,0 +1,6 @@
+framework module Pods_EastHighschoolLibrary {
+  umbrella header "Pods-EastHighschoolLibrary-umbrella.h"
+
+  export *
+  module * { export * }
+}
