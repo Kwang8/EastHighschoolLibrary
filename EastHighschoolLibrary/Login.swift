@@ -45,6 +45,7 @@ class LoginController: UIViewController, UITextFieldDelegate{
             if let item = snapshot.value as? String{
                 self.passwordFirebase = item
                 myGroup.leave()
+                print("hi")
             }
         })
         myGroup.notify(queue: DispatchQueue.main) {
